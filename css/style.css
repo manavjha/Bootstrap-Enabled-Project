@@ -1,0 +1,41 @@
+html,body,div,span,applet,object,iframe,h1,h2,
+h3,h4,h5,h6,p,blockquote,a,abbr,acronym,address,
+big,cite,del,dfn,em,img,ins,kbd,q,s,samp,small,
+strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,
+dd,ol,ul,li,fieldset,form,label,legend,table,caption,
+tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,
+embed,figure,figcaption,footer,header,hgroup,input,menu,
+nav,output,ruby,section,summary,time,mark,audio,video {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+* { -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box; }
+
+.contentsection{    padding-bottom: 7.2rem;}
+.contentsection:nth-child(2n) {	background-color: #31708f; color:#fff;}
+.quotes {	background: #fff;	width: 100%;	padding-bottom: 8.9rem;}
+.gray-section {	color: #9a9a9a!important;}
+.pd-top-15-5 {	padding-top: 3.5rem;}
+.quotes .row p {color: #414347;font-size:1.8rem;padding-right: 2rem;width: 100%;margin: 0 auto;padding-bottom: 3rem;}
+.gray-section p {	padding-top: 0;}
+.color-blue {	color: #3a6dd6;}
+label span {display: inline-block;line-height: 1.6rem;color: gray;padding-top: .5rem;}
+label i {display: inline-block;	height: 25px;position: relative;top: 2px;font-style: normal;color: #565454;}
+#test .mytest1{background-color: #f00;color:#fff;padding: 2rem;}
+#test .mytest2{background-color: #0ff;padding: 2rem;}
+/*button section dated 23/1/2017 */
+#btnsection button { background-color:#3a6dd6; height:5.7rem; border-radius:0; color:#FFF; border-color:#3a6dd6; padding-left:7rem; padding-right:7rem;
+	transition: background-color 0.5s ease; -moz-transition: background-color 0.5s ease; -webkit-transition: background-color 0.5s ease;}
+#btnsection button:hover{background-color: #efefef; color:#3a6dd6; border-color:#efefef;}
+#btnsection .text-center{text-align: center;}
+/*ul li:nth-child(4n+4), ul li:nth-child(4n+3) {color:red;}*/
+.pd-top{margin-top:2rem;}
+.nav-ul {float: right;margin-bottom: .8rem;}
+.nav-ul li{display: inline-block;}
+.contentsection ul li{list-style: none;}
+#list ul.floatinglist li{display: inline-block;padding: 2rem;background-color: #1b6d85; width: 14rem;}
+
