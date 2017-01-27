@@ -313,6 +313,12 @@
 			<div class="col-xs-12">
 				<h1>My Header</h1>
 				<p>A credit card is a small plastic money issued by a bank which gives the holder an option to purchase goods and services on credit. Many people prefer plastic money over cash just because credit cards come with plenty of unmatched features and privileges.They have become part and parcel of everyone's life because from dining out at restaurants to booking your favourite international flight ticket, you can use your creditcard for anything that you like.</p>
+			<ul>
+				<li>mango</li>
+				<li>apple</li>
+				<li>banana</li>
+				<li>papaya</li>
+			</ul>
 			</div>
 		</div>
 
@@ -327,34 +333,27 @@
 <script>
 
     $(document).ready(function(){
-
         var maxheight = 0;
-
         $('.floatinglist li').each(function(){
-
             if (maxheight < $(this).height()) {
-
                 maxheight = $(this).height();
-
             }
-
         });
-
         $('.floatinglist li').height(maxheight);
-
-
     });
 
-
-</script>
-<script>
-
-    $(document).ready(function(){
-        $("button").click(function(){
-            console.log('hi...');
-            $('#test').find('.mytest1').toggle();
-        });
+    $('div').each(function (index, value) {
+        console.log('div' + index + ':' + $(this).attr('id'));
     });
+    $('ul li').each(function (index) {
+        var divs = $('div:lt(10)');
+        Array.prototype.forEach.call(divs, function (element) { console.log(element); });
+    });
+    $("button").click(function(){
+        console.log('hi...');
+        $('#test').find('.mytest1').toggle();
+    });
+
 </script>
 </body>
 </html>
